@@ -1,0 +1,129 @@
+/*section 1 styling*/
+
+body, html {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding (if necessary) */
+}
+
+.section1{
+    background-color: #1f2937;
+    color: white;
+    padding: 100px;
+    display: flex;
+}
+
+.navBar{
+    background-color: #1f2937;
+    color: white; 
+    display: flex;
+}
+
+#logo{
+    height: 50px;
+    flex: 4;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.page{
+    flex: 1;
+    height: 50px;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+    
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.image{
+    height: 200px;
+    flex: 1;
+    display: flex;
+    background-color: grey;
+}
+
+.heroText{
+    height: 100px;
+    flex: 2;
+}
+
+.heroText button{
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+}
+
+/*section 2 styling */
+.section2{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 h2{
+    color: black;
+    font-weight: 900;
+    padding: 100px;
+    flex: 1;
+}
+
+.example{
+    display: flex;
+    flex-direction: row;
+}
+
+.example img{
+    flex: 1;
+    outline: solid 2px #3882F6;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.example p{
+    flex: 1;
+    margin: 5px;
+}
+/*{
+    outline: 2px solid red;
+} */
+
+/*section 3*/
+.section3{
+    background-color: #e5e7eb;
+}
+
+/*section 4*/
+.section4{
+    background-color: white;
+    display: flex;
+}
+
+.signup{
+    background-color: #3882F6;
+    margin: 100px;
+    height: 100px;
+    flex: 1;
+}
+
+.signup button{
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+}
+
+/*footer*/
+.footer{
+    background-color: #1f2937;
+    color: white;
+}
